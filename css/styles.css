@@ -490,13 +490,12 @@ img {
 
 .footer-form-label {
   display: block;
-  margin-top: 16px;
 }
 
 .footer-form-input {
   width: 264px;
   height: 40px;
-  padding: 8px 16px;
+  padding-left: 16px;
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
