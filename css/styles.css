@@ -499,7 +499,7 @@ img {
   padding: 8px 16px;
   font-size: 12px;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   border-radius: 4px;
   border: 1px solid var(--white-background-color);
   background-color: transparent;
@@ -513,13 +513,12 @@ img {
 
 .footer-subscribe-btn {
   display: flex;
-  position: relative;
   align-items: center;
   justify-content: center;
   min-width: 165px;
   height: 40px;
   padding: 8px 24px;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--white-background-color);
   font-size: 16px;
   font-weight: 500;
@@ -532,6 +531,7 @@ img {
 }
 
 .footer-subscribe-icon {
+  margin-left: 16px;
   fill: var(--white-background-color);
   background-color: transparent;
 }
@@ -779,10 +779,11 @@ img {
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  border-radius: 4px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
   resize: none;
+  border-radius: 4px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  color: rgba(46, 47, 66, 0.4);
   background-color: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -821,7 +822,7 @@ img {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-accept-input:checked + .modal-accept-text > .modal-checkbox {
-  background-color: var(--iris-primary-brand-color);
+  background-color: var(--ocean-pressed-state-color);
   border: none;
   fill: var(--cloud-light-color);
 }
